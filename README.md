@@ -6,15 +6,7 @@ The implementation differs from the original paper in these ways:
   2) Nadam optimizer used instead of SGD
   3) Parameters: LSTM cell size of 200 (vs 275), dropout of 0.5 (vs 0.68)
 
-These are the original parameter values from Chiu and Nichols (2016):
-  - 80 epochs
-  - 0.68 dropout
-  - 275 LSTM state size
-  - 1 LSTM layer
-  - 3 convolution width
-  - 0.0105 learning rate
-  - SGD optimizer
-
+Here is the corresponding Medium post with more details: https://medium.com/@maxhofer/deep-learning-for-named-entity-recognition-2-implementing-the-state-of-the-art-bidirectional-lstm-4603491087f1
 Code adapted from: https://github.com/kamalkraj/Named-Entity-Recognition-with-Bidirectional-LSTM-CNNs
 
 # Result 
