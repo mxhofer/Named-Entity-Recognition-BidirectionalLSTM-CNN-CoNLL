@@ -1,8 +1,8 @@
 # Named-Entity-Recognition-BLSTM-CNN-CoNLL
-  Keras implementation of the Bidirectional LSTM and CNN model by Chiu and Nichols (2016) for CoNLL news data. See paper: https://arxiv.org/abs/1511.08308. 
+  Keras implementation of the Bidirectional LSTM and CNN model by Chiu and Nichols (2016) for CoNLL 2003 news data. See the original paper: https://arxiv.org/abs/1511.08308
 
 The implementation differs from the original paper in these ways:
-  1) no lexicons/dictionaries
+  1) no lexicons
   2) Nadam optimizer used instead of SGD
   3) Parameters: LSTM cell size of 200 (vs 275), dropout of 0.5 (vs 0.68)
 
@@ -23,12 +23,13 @@ Code adapted from: https://github.com/kamalkraj/Named-Entity-Recognition-with-Bi
 # Dataset
   CoNLL-2003 newswire articles: https://www.clips.uantwerpen.be/conll2003/ner/
 
-  The implementation uses GloVe vector representation from Jeffrey Pennington, Richard Socher, and Christopher D. Manning. 2014. See https://nlp.stanford.edu/projects/glove/
+  GloVe vector representation from Jeffrey Pennington, Richard Socher, and Christopher D. Manning. 2014. See https://nlp.stanford.edu/projects/glove/
 
 # Dependencies 
     1) numpy 
     2) Keras
     3) Tensorflow
+    4) Stanford GloVE embeddings
  
  
  
